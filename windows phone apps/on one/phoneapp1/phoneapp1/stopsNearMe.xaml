@@ -1,0 +1,178 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.Page6"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+	<phone:PhoneApplicationPage.Resources>
+		<Storyboard x:Name="Storyboard1" RepeatBehavior="Forever">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle">
+				<EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle1">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle2">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle3">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle4">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle6">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle7">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle5">
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+
+        <Storyboard x:Name="Storyboard2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="animationGrid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.46"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0.0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Name="Storyboard3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ContentPanel">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </phone:PhoneApplicationPage.Resources>
+
+
+
+
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+
+            <Grid.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="Resources/bg.jpg" AlignmentY="Top" AlignmentX="Center"/>
+            </Grid.Background>
+            
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel Grid.Row="0" Margin="12,17,0,28">
+                <TextBlock Text="On One" Style="{StaticResource PhoneTextNormalStyle}"/>
+                <TextBlock Text="Closest Stops" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
+
+        <Canvas x:Name="animationGrid">
+            <Grid >
+                <Rectangle Name="greyWashover" Fill="Black" HorizontalAlignment="Left" Height="768" Stroke="Black" VerticalAlignment="Top" Width="480" Opacity="0.46"/>
+                <Rectangle x:Name="rectangle" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="24" Margin="227,261,0,0" VerticalAlignment="Top" Width="10"/>
+                <Rectangle x:Name="rectangle1" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="23.723" Margin="249.422,270.221,0,0" VerticalAlignment="Top" Width="9.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform Rotation="40.759" SkewX="-0.063"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="rectangle2" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="23.724" Margin="256.679,293.746,0,0" VerticalAlignment="Top" Width="9.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform Rotation="90.316" SkewY="0.001" ScaleY="1.001" ScaleX="0.999"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="rectangle3" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="23.724" Margin="249.463,313.337,0,0" VerticalAlignment="Top" Width="9.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform Rotation="129.127" SkewY="0.062" ScaleY="1.001" ScaleX="0.999"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="rectangle4" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="24" Margin="227,323,0,0" VerticalAlignment="Top" Width="10"/>
+                <Rectangle x:Name="rectangle5" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="23.724" Margin="205.411,314.65,0,0" VerticalAlignment="Top" Width="9.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Opacity="1.0">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform Rotation="40.759" SkewX="-0.063"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="rectangle6" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="23.724" Margin="196.207,294.289,0,0" VerticalAlignment="Top" Width="9.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform Rotation="90.316" SkewY="0.001" ScaleY="1.001" ScaleX="0.999"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="rectangle7" Fill="#FF9C9C9C" HorizontalAlignment="Left" Height="23.724" Margin="203.766,270.315,0,0" VerticalAlignment="Top" Width="9.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform Rotation="129.127" SkewY="0.062" ScaleY="1.001" ScaleX="0.999"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+
+            </Grid>
+        </Canvas>
+
+        <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Opacity="0.2">
+                <Rectangle Fill="Black" Opacity="0.5" Grid.RowSpan="2" />
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Grid.Row="1">
+                    <Grid>
+                        <StackPanel Name="oneTextBblock">
+                        <Grid x:Name="contentView" Visibility="Collapsed">
+                            <Rectangle HorizontalAlignment="Left" Fill="YellowGreen" Width="450" Margin="-21,0,0,0"/>
+                            <StackPanel>
+                            <Grid>
+
+                                    <TextBlock Name="stopBox" Height="Auto" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                            </Grid>
+                                <Controls:Map BorderBrush="BlanchedAlmond" HorizontalAlignment="Left" ZoomLevel="5.0" Center="-27.4679, 153.0278"  Tap="worldMap_Tap" Name="worldMap"  Margin="0,90,0,0" VerticalAlignment="Top" Height="440" Width="Auto"/>
+                            </StackPanel>
+                        </Grid>
+                        
+
+
+                            <ListBox Name="listBlock" SelectionChanged ="listBlock_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                            <ListBox.ItemTemplate >
+                                <DataTemplate x:Name="listBlock2">
+                                    
+                                    <Grid Margin="10">
+                                        <Rectangle HorizontalAlignment="Left" Fill="YellowGreen" Height="96" Width="450" Margin="-21,0,0,0"/>
+                                        <TextBlock x:Name="templateBox" Text="{Binding Description}" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                            </ListBox>
+
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+
+
+            </Grid>
+        </Grid>
+
+
+</phone:PhoneApplicationPage>

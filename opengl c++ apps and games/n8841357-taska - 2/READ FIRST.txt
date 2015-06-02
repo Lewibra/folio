@@ -1,0 +1,23 @@
+HowTo Run:
+You will need codeblocks to compile this project,
+open RUN.cpb in the objReader folder and set it to Debug next to the Run/Compile
+button.
+Click run and compile
+
+
+
+CONTROLS:
+
+A -- move left
+D -- move right
+S -- speed up
+Z -- Drop to the floor
+X -- spiral to the floor
+R -- reset position
+G -- Turn everything green!
+L -- Disperse
+O -- Re Disperse
+Down -- Zoom out
+Foward -- zoom in
+Left, right -- rotate
+

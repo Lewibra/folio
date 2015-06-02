@@ -1,0 +1,20 @@
+HowTo Run:
+You will need codeblocks to compile this project,
+open Run.cpb in objReader and set it to Debug next to the Run/Compile
+button.
+Click run and compile
+
+
+
+Controls 
+
+f1 - rotate the display
+up - lighting off
+down - lighting on
+left - expand
+right - contract
+L click - speed up
+L click on cubes to move them (click once and it follows the mouse, click again to make it stop)
+R click - slow down
+
+

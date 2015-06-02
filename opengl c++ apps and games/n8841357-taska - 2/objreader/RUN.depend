@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1417102298 source:e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\coordinate.cpp
+	"coordinate.h"
+
+1409052208 e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\coordinate.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1314314274 e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\headers for codeblocks\glew-1.7.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1326699352 e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\headers for codeblocks\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1326699596 e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\headers for codeblocks\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1417102295 source:e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\face.cpp
+	"face.h"
+
+1417102284 e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\face.h
+
+1417102290 source:e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\loader.cpp
+	"loader.h"
+	"coordinate.h"
+	"face.h"
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<cstdlib>
+	<vector>
+	<string>
+	<algorithm>
+	<fstream>
+	<istream>
+	<iostream>
+
+1417102279 e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\loader.h
+	"coordinate.h"
+	"face.h"
+	<vector>
+
+1417101916 source:e:\dropbox\lewis's portfolio\opengl c++ apps and games\n8841357-taska - 2\objreader\main.cpp
+	"loader.h"
+	"coordinate.h"
+	"face.h"
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<windows.h>
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<cstdlib>
+	<vector>
+	<string>
+	<algorithm>
+	<fstream>
+	<cstdio>
+	<iostream>
+	<iomanip>
+	<cmath>
+	<math.h>
+

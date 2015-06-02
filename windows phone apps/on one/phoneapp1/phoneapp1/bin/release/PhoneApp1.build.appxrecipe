@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LEWIS</Machine>
+    <WindowsUser>lewis</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>267cb020-2f81-45ee-a84f-4a9ccf3c6938</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Bin\Release\PhoneApp1.dll">
+      <PackagePath>PhoneApp1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll">
+      <PackagePath>Microsoft.Expression.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll">
+      <PackagePath>Microsoft.Phone.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\packages\Newtonsoft.Json.6.0.5\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll">
+      <PackagePath>System.Windows.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\de\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>de\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\en\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>en\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\es\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>es\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\fr\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>fr\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\it\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>it\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ja\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ja\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ko\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ko\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ru\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ru\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\zh-Hans\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\zh-Hant\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\de\System.Windows.Interactivity.resources.dll">
+      <PackagePath>de\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\en\System.Windows.Interactivity.resources.dll">
+      <PackagePath>en\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\es\System.Windows.Interactivity.resources.dll">
+      <PackagePath>es\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\fr\System.Windows.Interactivity.resources.dll">
+      <PackagePath>fr\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\it\System.Windows.Interactivity.resources.dll">
+      <PackagePath>it\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ja\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ja\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ko\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ko\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ru\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ru\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\zh-Hans\System.Windows.Interactivity.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\zh-Hant\System.Windows.Interactivity.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\packages\Newtonsoft.Json.6.0.5\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\bus.png">
+      <PackagePath>Assets\bus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\plus.png">
+      <PackagePath>Assets\plus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\PlusIconGrey.png">
+      <PackagePath>Assets\PlusIconGrey.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\train.png">
+      <PackagePath>Assets\train.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\walk.png">
+      <PackagePath>Assets\walk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Resources\banner.png">
+      <PackagePath>Resources\banner.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Toolkit.Content\ApplicationBar.Add.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Toolkit.Content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Toolkit.Content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Toolkit.Content\ApplicationBar.Delete.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Toolkit.Content\ApplicationBar.Select.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\README_FIRST.txt">
+      <PackagePath>README_FIRST.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Resources\bg.jpg">
+      <PackagePath>Resources\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Ringtones\Crazy.mp3">
+      <PackagePath>Ringtones\Crazy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lewis\Desktop\New folder\PhoneApp1\PhoneApp1\Bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,276 @@
+# depslib dependency file v1.0
+1397521285 source:c:\users\lewis\desktop\card assignment\card.cpp
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1397367274 c:\users\lewis\desktop\card assignment\card.h
+	<iostream>
+	<iomanip>
+	<string>
+
+1397557917 source:c:\users\lewis\desktop\card assignment\main.cpp
+	<iostream>
+	<iomanip>
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+
+1397339399 source:c:\users\lewis\desktop\card assignment\makecards.cpp
+	<iostream>
+	<iomanip>
+	"card.h"
+	"random.h"
+
+1395118545 c:\users\lewis\desktop\card assignment\random.h
+
+1397349459 source:c:\users\lewis\desktop\card assignment\random.cpp
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<iomanip>
+	"random.h"
+
+1397528176 source:c:\users\lewis\desktop\card assignment\deck.cpp
+	<iostream>
+	<iomanip>
+	"Deck.h"
+	"random.h"
+
+1397433056 c:\users\lewis\desktop\card assignment\deck.h
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1397349494 c:\users\lewis\desktop\card assignment\card.cpp
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1397349459 c:\users\lewis\desktop\card assignment\random.cpp
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<iomanip>
+	"random.h"
+
+1397558091 source:c:\users\lewis\desktop\card assignment\hand.cpp
+	"Hand.h"
+	"card.h"
+	<iostream>
+	<iomanip>
+	<vector>
+
+1397556346 c:\users\lewis\desktop\card assignment\hand.h
+	"card.h"
+	<vector>
+
+1397460085 source:c:\users\n8841357\desktop\card assignment\card.cpp
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1397306074 c:\users\n8841357\desktop\card assignment\card.h
+	<iostream>
+	<iomanip>
+	<string>
+
+1397466976 source:c:\users\n8841357\desktop\card assignment\deck.cpp
+	<iostream>
+	<iomanip>
+	"Deck.h"
+	"random.h"
+
+1397371856 c:\users\n8841357\desktop\card assignment\deck.h
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1395057345 c:\users\n8841357\desktop\card assignment\random.h
+
+1397468481 source:c:\users\n8841357\desktop\card assignment\hand.cpp
+	"Hand.h"
+	"card.h"
+	<iostream>
+	<iomanip>
+
+1397468142 c:\users\n8841357\desktop\card assignment\hand.h
+	"card.h"
+
+1397469094 source:c:\users\n8841357\desktop\card assignment\main.cpp
+	<iostream>
+	<iomanip>
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+
+1397288259 source:c:\users\n8841357\desktop\card assignment\random.cpp
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<iomanip>
+	"random.h"
+
+1397530515 source:c:\users\lewis\desktop\card assignment\game.cpp
+	"Game.h"
+
+1397552453 c:\users\lewis\desktop\card assignment\game.h
+
+1398061337 source:c:\users\lewis\desktop\card assignment2\card.cpp
+	<iostream>
+	<iomanip>
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+
+1398061920 c:\users\lewis\desktop\card assignment2\card.h
+	<iostream>
+	<iomanip>
+	<string>
+
+1398061910 source:c:\users\lewis\desktop\card assignment2\deck.cpp
+	<iostream>
+	<iomanip>
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+
+1398060439 c:\users\lewis\desktop\card assignment2\deck.h
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1395118545 c:\users\lewis\desktop\card assignment2\random.h
+
+1398048424 source:c:\users\lewis\desktop\card assignment2\game.cpp
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+	<iostream>
+	<iomanip>
+
+1398061588 c:\users\lewis\desktop\card assignment2\game.h
+	<iostream>
+	<iomanip>
+	"Hand.h"
+	"Deck.h"
+
+1398061417 source:c:\users\lewis\desktop\card assignment2\hand.cpp
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+	<iostream>
+	<iomanip>
+	<vector>
+	<set>
+	<iterator>
+
+1398060885 c:\users\lewis\desktop\card assignment2\hand.h
+	"card.h"
+	<vector>
+	<set>
+	<iterator>
+
+1397663249 source:c:\users\lewis\desktop\card assignment2\main.cpp
+	<iostream>
+	"Game.h"
+
+1397349459 source:c:\users\lewis\desktop\card assignment2\random.cpp
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<iomanip>
+	"random.h"
+
+1398045552 source:c:\users\lewis\desktop\card assignment2\bridge.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"game.h"
+
+1397984354 source:e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\bridge.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"game.h"
+
+1398000390 e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\game.h
+	<iostream>
+	<iomanip>
+	"Hand.h"
+	"Deck.h"
+
+1397999686 e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\hand.h
+	"card.h"
+	<vector>
+	<set>
+	<iterator>
+
+1398000722 e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\card.h
+	<iostream>
+	<iomanip>
+	<string>
+
+1397999240 e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\deck.h
+	<iostream>
+	<iomanip>
+	"card.h"
+
+1398000138 source:e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\card.cpp
+	<iostream>
+	<iomanip>
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+
+1395057346 e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\random.h
+
+1398000712 source:e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\deck.cpp
+	<iostream>
+	<iomanip>
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+
+1397987226 source:e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\game.cpp
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+	<iostream>
+	<iomanip>
+
+1398000218 source:e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\hand.cpp
+	"random.h"
+	"Deck.h"
+	"card.h"
+	"Hand.h"
+	"Game.h"
+	<iostream>
+	<iomanip>
+	<vector>
+	<set>
+	<iterator>
+
+1397288260 source:e:\dropbox\lewis's portfolio\c++ apps\openbridge card game simulator\random.cpp
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<iomanip>
+	"random.h"
+

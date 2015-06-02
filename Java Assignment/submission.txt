@@ -1,0 +1,7 @@
+Hi!
+I supplied a javaDoc folder for my assignment, I did this because it has 
+custom tags that require extra coding to be added when you
+generate a javaDoc.
+
+I also have the extra private class in my DamActions testing file, it is near the bottom.
+
